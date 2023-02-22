@@ -9,7 +9,9 @@ int main()
     scanf("%d", &v);
     printf("Prozentsatz angeben: ");
     scanf("%d", &pc);
-    e = v*(pc/100.00);
+
+    e = v*(pc/100.00); // calculate percentage of valuecd
+
     printf("%d%% of %d equals %.1f\n", pc,v,e);
 
 }
